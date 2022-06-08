@@ -1,5 +1,15 @@
 .profile {
-    display: flex;
+    display: grid;
+    grid-template-columns: 120px 365px auto 150px;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+    }
 }
