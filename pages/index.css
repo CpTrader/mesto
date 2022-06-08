@@ -12,4 +12,6 @@
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__edit-profile/profile__edit-profile.css);
 @import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);
 @import url(../fonts/Inter/inter.css);
