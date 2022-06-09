@@ -8,11 +8,13 @@
     cursor: pointer;
     transition: 0.2s ease;
     padding: 0;
+    border-color: none;
+    outline: none;
+    border: none;
   }
   
   .elements__like:hover {
-    background-image: url(../../../images/like_hover.svg);
-    
+    opacity: 0.5;
   }
   
   .elements__like:active {

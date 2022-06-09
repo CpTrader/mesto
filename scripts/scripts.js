@@ -1,33 +1,32 @@
-const popup = document.querySelector('.popup'), 
-popupToggle = document.querySelector('.profile__edit-profile'), 
-popupClose = document.querySelector('.popup__closed'), 
-popupName = document.querySelector('.popup__input_name'), 
-popupProfession = document.querySelector('.popup__input_profession'),
-popupSubmit = document.querySelector('.popup__submit'); 
- 
-const popupTitle = document.querySelector('.profile__name'),    
-popupSubtitle = document.querySelector('.profile__about'); 
+let popupForm = document.querySelector('.popup__form');
+popupEditBtn = document.querySelector('.profile__edit-profile'),
+popupClose = document.querySelector('.popup__close-btn'),
+popupName = document.querySelector('.popup__input_name_name'),
+popupProfession = document.querySelector('.popup__input_name_profession'),
+popupSubmit = document.querySelector('.popup__submit');
+popupSubtitle = document.querySelector('.profile__about');
+const popupTitle = document.querySelector('.profile__name');
+const popup = document.querySelector('.popup');
 
-
-function openPopup() { 
-    popup.classList.add('popup_opened'); 
-    popupName.value = popupTitle.textContent; 
-    popupProfession.value = popupSubtitle.textContent; 
+function openPopup() {
+    popup.classList.add('popup_opened');
+    popupName.value = popupTitle.textContent;
+    popupProfession.value = popupSubtitle.textContent;
 };
 
-function closePopup() { 
-    popup.classList.remove('popup_opened'); 
+function closePopup() {
+    popup.classList.remove('popup_opened');
 };
 
-let popupForm = document.querySelector('.popup__form'); 
 
-function formSubmitHandler (evt) { 
-evt.preventDefault();  
-popupTitle.textContent = popupName.value; 
-popupSubtitle.textContent = popupProfession.value; 
-closePopup();
+
+function formSubmitHandler(evt) {
+    evt.preventDefault();
+    popupTitle.textContent = popupName.value;
+    popupSubtitle.textContent = popupProfession.value;
+    closePopup();
 };
 
-popupForm.addEventListener('submit', formSubmitHandler); 
-popupClose.addEventListener('click', closePopup); 
-popupToggle.addEventListener('click', openPopup); 
+popupForm.addEventListener('submit', formSubmitHandler);
+popupClose.addEventListener('click', closePopup);
+popupEditBtn.addEventListener('click', openPopup); 

@@ -2,10 +2,11 @@
     display: flex;
     grid-area: button;
     background-color: rgba(0, 0, 0, 0);
+    outline: none;
     width: 24px;
     height: 24px;
     margin-top: 5px;
-    background-image: url(../../../images/Edit\ Button.svg);
+    background-image: url(../../../images/Edit_Button.svg);
     background-repeat: no-repeat;
     background-position: center;
     padding: 0;
@@ -18,7 +19,7 @@
 }
 
 .profile__edit-profile:hover {
-    background-image: url(../../../images/Edit\ Button_hover.svg);
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 750px) {

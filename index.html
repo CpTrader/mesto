@@ -9,82 +9,80 @@
 </head>
 
 <body class="root">
-    <div class="page">
-        <header class="header">
-            <div class="header__logo"></div>
-        </header>
-        <main class="content">
-            <section class="profile">
-                <div class="profile__avatar"></div>
-                <div class="profile__info">
-                    <h1 class="profile__name">Жак-Ив Кусто</h1>
-                    <p class="profile__about">Исследователь океана</p>
-                    <button type="button" class="profile__edit-profile"></button>
-                </div>
-                <button type="button" class="profile__add-picture">
-                </button>
-            </section>
-            <section class="elements">
-                <ul class="elements__items">
-                    <li class="elements__item">
-                        <img class="elements__image" src="./images/1.png" alt="Карачаевск">
-                        <div class="elements__description">
-                            <h2 class="elements__title">Карачаевск</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__item">
-                        <img class="elements__image" src="./images/2.png" alt="Гора Эльбрус">
-                        <div class="elements__description">
-                            <h2 class="elements__title">Гора Эльбрус</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__item">
-                        <img class="elements__image" src="./images/3.png" alt="Домбай">
-                        <div class="elements__description">
-                            <h2 class="elements__title">Домбай</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__item">
-                        <img class="elements__image" src="./images/Avstriya.png" alt="Австрия">
-                        <div class="elements__description">
-                            <h2 class="elements__title">Австрия</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__item">
-                        <img class="elements__image" src="./images/Norvegiya.png" alt="Норвегия">
-                        <div class="elements__description">
-                            <h2 class="elements__title">Норвегия</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__item">
-                        <img class="elements__image" src="./images/Ozero_Braiec.png" alt="Озеро Брайес">
-                        <div class="elements__description">
-                            <h2 class="elements__title">Озеро Брайес</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer class="footer">
-            <p class="footer__paragraph">&copy;&nbsp;2022 Mesto Russia</p>
-        </footer>
-        <div class="popup">
-            <div class="popup__container">
-                <button class="popup__closed" type="button" aria-label="Закрыть"></button>
-                <h2 class="popup__title">Редактировать профиль</h2>
-                <form class="popup__form" name="form" method="post" action="#">
-                    <input class="popup__input popup__input_name" name="name" required type="text" placeholder="Имя">
-                    <input class="popup__input popup__input_profession" name="job" required type="text"
-                        placeholder="Работа">
-                    <button class="popup__submit" type="submit">Сохранить</button>
-                </form>
+    <header class="header">
+        <div class="header__logo"></div>
+    </header>
+    <main class="content">
+        <section class="profile">
+            <div class="profile__avatar"></div>
+            <div class="profile__info">
+                <h1 class="profile__name">Жак-Ив Кусто</h1>
+                <p class="profile__about">Исследователь океана</p>
+                <button type="button" class="profile__edit-profile" aria-label="Редактировать профиль"></button>
             </div>
+            <button type="button" class="profile__add-picture" aria-label="Добавить картинку"></button>
+        </section>
+        <section class="elements">
+            <ul class="elements__items">
+                <li class="elements__item">
+                    <img class="elements__image" src="./images/1.png" alt="Карачаевск">
+                    <div class="elements__description">
+                        <h2 class="elements__title">Карачаевск</h2>
+                        <button class="elements__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="elements__item">
+                    <img class="elements__image" src="./images/2.png" alt="Гора Эльбрус">
+                    <div class="elements__description">
+                        <h2 class="elements__title">Гора Эльбрус</h2>
+                        <button class="elements__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="elements__item">
+                    <img class="elements__image" src="./images/3.png" alt="Домбай">
+                    <div class="elements__description">
+                        <h2 class="elements__title">Домбай</h2>
+                        <button class="elements__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="elements__item">
+                    <img class="elements__image" src="./images/Avstriya.png" alt="Австрия">
+                    <div class="elements__description">
+                        <h2 class="elements__title">Австрия</h2>
+                        <button class="elements__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="elements__item">
+                    <img class="elements__image" src="./images/Norvegiya.png" alt="Норвегия">
+                    <div class="elements__description">
+                        <h2 class="elements__title">Норвегия</h2>
+                        <button class="elements__like" type="button"></button>
+                    </div>
+                </li>
+                <li class="elements__item">
+                    <img class="elements__image" src="./images/Ozero_Braiec.png" alt="Озеро Брайес">
+                    <div class="elements__description">
+                        <h2 class="elements__title">Озеро Брайес</h2>
+                        <button class="elements__like" type="button"></button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__paragraph">&copy;&nbsp;2022 Mesto Russia</p>
+    </footer>
+    <div class="popup">
+        <div class="popup__container">
+            <button class="popup__close-btn" type="button" aria-label="Закрыть"></button>
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <form class="popup__form" name="form" method="post" action="#">
+                <input class="popup__input popup__input_name_name" name="name" required type="text" placeholder="Имя"
+                    minlength="2" maxlength="40">
+                <input class="popup__input popup__input_name_profession" name="job" required type="text" placeholder="Работа"
+                    minlength="2" maxlength="40">
+                <button class="popup__submit" type="submit">Сохранить</button>
+            </form>
         </div>
     </div>
     <script src="scripts/scripts.js"></script>
