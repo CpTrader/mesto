@@ -7,7 +7,7 @@
 - Transition
 - Position
 - Figure
-- Адаптивное разрешение под 1280/1024/768/320px
+- Адаптивное разрешение под 1280/320px
 - Базовый JavaScript
 - popup
 
