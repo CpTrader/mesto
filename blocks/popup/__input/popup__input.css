@@ -22,13 +22,13 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .popup__input_name_profession {
     margin-bottom: 45px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .popup__input_name_name {
     margin-bottom: 30px;
   }
