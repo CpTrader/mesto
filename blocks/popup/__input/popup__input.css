@@ -2,7 +2,7 @@
   padding-bottom: 13px;
   border-style: inset;
   width: 99%;
-  margin-bottom: 48px;
+  margin-bottom: 30px;
   border: none;
   display: inline-block;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
@@ -17,15 +17,19 @@
   transition: 0.2s ease;
 }
 
+.popup__input_name_profession {
+  margin-bottom: 48px;
+}
+
 
 @media screen and (max-width: 600px) {
-  .popup__input_profession {
+  .popup__input_name_profession {
     margin-bottom: 45px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .popup__input_name {
+  .popup__input_name_name {
     margin-bottom: 30px;
   }
 }

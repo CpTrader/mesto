@@ -1,12 +1,12 @@
-let popupForm = document.querySelector('.popup__form');
+const popupForm = document.querySelector('.popup__form');
+const popupTitle = document.querySelector('.profile__name');
+const popup = document.querySelector('.popup');
 popupEditBtn = document.querySelector('.profile__edit-profile'),
 popupClose = document.querySelector('.popup__close-btn'),
 popupName = document.querySelector('.popup__input_name_name'),
 popupProfession = document.querySelector('.popup__input_name_profession'),
-popupSubmit = document.querySelector('.popup__submit');
 popupSubtitle = document.querySelector('.profile__about');
-const popupTitle = document.querySelector('.profile__name');
-const popup = document.querySelector('.popup');
+
 
 function openPopup() {
     popup.classList.add('popup_opened');

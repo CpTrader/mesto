@@ -11,7 +11,8 @@
   @media screen and (max-width: 600px) {
     .popup__form {
         width: 238px;
-        padding-top: 50px;
-        min-height: 275px;
+        padding-top: 75px;
+        padding-bottom: 25px;
+        justify-content: flex-start;
     }
   }
